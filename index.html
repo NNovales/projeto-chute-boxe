@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Chute Boxe - CB</title>
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/fundo-elves-brener.png" alt="Personagem Elves Brener">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Elves Brener</h2>
+                <p class="descricao">Elves Brener estreiou no UFC em 2023. Acumulando 2Vitórias no Ultimate(UFC) sendo a primeira uma decisão dividida e um nocaute aos 3:17minutos do terceiro round.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/fundo-allan-puro-osso.png" alt="Personagem Allan Puro Osso">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Allan Nascimento "Puro Osso"</h2>
+                <p class="descricao">Allan Nascimento possui um histórico notável de vitórias, incluindo triunfos por finalização e decisões dos juízes, 3 destas sendo no ultimate(UFC). Uma finalização e duas decisões.</p>
+            </div>
+        </div>
+
+        <div class="personagem selecionado">
+            <img class="imagem" src="./src/imagens/fundo-charles-oliveira.png" alt="Personagem Charles Oliveira">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Charles Oliveira "Do Bronxs"</h2>
+                <p class="descricao">Charles Oliveira é conhecido por sua maestria no jiu-jitsu. Ele se tornou campeão dos leves do UFC em 2021, estabelecendo um recorde de finalizações na organização. Sua carreira é marcada pela perseverança e excelência no chão.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/fundo-polyana-viana.png" alt="Personagem Polyana Viana" >
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Polyana Viana "Dama de Ferro"</h2>
+                <p class="descricao">Polyana Viana entrou no UFC em 2018 e rapidamente se destacou por suas técnicas de luta agressivas e eficazes. 5Wins by knockout. 8Wins by submission and 12First round finishes.
+                </p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <img class="imagem" src="./src/imagens/fundo-daniel-willycat.png" alt="Daniel Willycat">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">Daniel Santos "WillyCat"</h2>
+                <p class="descricao">Daniel Nascimento estreiou no UFC em 2022. Acumulando 3Vitórias no Ultimate(UFC) Uma vitória por nocaute e duas decisões unânimes.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <video class="video"  loop   src="./src/videos/chute-boxe-embu.mp4" alt="Chute Boxe Embu">
+            </video>
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-personagem">CT Chute Boxe Embu das Artes</h2>
+                <p class="descricao"> Sob Direção do Professor e Atleta de MMA Marlon Brito <a href="https://www.instagram.com/marlonbritooo/">--INSTAGRAM--</a>. Mais novo e mais completo Centro de treinamento localizado em AVENIDA PROFESSOR CANDIDO MOTA, 473 - Jardim Recanto da Fonte, Embu das Artes - SP. Mais informações <a href="https://www.instagram.com/chuteboxeembudasartes/">--Clique aqui--</a> e seja direcionado para a pagina oficial do CT. Heeeeeeeeey🔥🔥🔥 C ⭐ B
+                </p>
+            </div>
+        </div>
+        
+        
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao" onclick="pauseVideo()">
+                <img src="./src/imagens/atleta-elves-brener.png" alt="Atleta Elves Brener" width="100" height="90">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" onclick="pauseVideo()">
+                <img src="./src/imagens/atleta-allan-puro-osso.png" alt="Atleta Allan Nascimento" width="100" height="90">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado" onclick="pauseVideo()">
+                <img src="./src/imagens/atleta-charles-oliveira.png" alt="Atleta Charles Oliveira" width="100" height="90">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" onclick="pauseVideo()">
+                <img src="./src/imagens/atleta-polyana-viana.png" alt="Atleta Polyana Viana" width="100" height="90">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" onclick="pauseVideo()">
+                <img src="./src/imagens/atleta-daniel-willycat.png" alt="Atleta Daniel WillyCat" width="100" height="90">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao" onclick="playVideo()">
+                <img src="./src/imagens/chute-boxe-embu-logo.png" alt="Chute Boxe Embu das Artes" width="100" height="90">
+            </button>
+        </li>
+    </ul>
+
+        <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
