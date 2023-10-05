@@ -13,7 +13,7 @@
         left: 0;
         top: -20%;
         max-width: 100vw;
-        padding: 30px;
+        padding: 20px;
     }
 
     .conteudo .nome-personagem {
@@ -22,6 +22,9 @@
 
     .conteudo .descricao{
         max-width: 500px;
+        max-height: 132px;
+        overflow-y: scroll;
+        margin-bottom: 25px;
     }
 
     .botoes {
@@ -55,10 +58,13 @@
     }
      
     .botoes {
-        padding: 20px;
-        top: -20%;
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+        overflow: auto;
     }
-
+ 
     .botoes .botao img {
         max-width: 50px;
     }
